@@ -2,6 +2,7 @@
   "name": "remix-flask",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "flask-dev": "FLASK_DEBUG=1 pip3 install -r requirements.txt && python3 -m flask --app api/index run -p 5328",
     "remix-dev": "remix vite:dev",
